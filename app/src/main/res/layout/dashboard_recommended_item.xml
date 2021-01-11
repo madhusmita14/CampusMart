@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorBlack">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dashboard_recommended_img"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitCenter"
+                android:background="@drawable/sofa"/>
+            <Button
+                android:id="@+id/dashboard_recommended_price"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:layout_marginLeft="-100dp"
+                android:background="@drawable/amtbg"
+                android:text="1300"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/dashboard_recommended_itemTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="2dp"
+            android:text="3+1+1 sofa set"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/dashboard_recommended_locationTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="2dp"
+            android:text="kiit +2science,BBSR"
+            android:textSize="10sp"
+            android:textColor="#fff"/>
+        <ImageView
+            android:id="@+id/dashboard_recommended_wishlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="240dp"
+            android:src="@drawable/ic_baseline_favorite_border_24"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

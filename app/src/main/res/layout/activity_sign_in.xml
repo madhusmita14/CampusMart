@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".Activities.SignIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="150dp"
+            android:text="Sign In"
+            android:textColor="@color/colorYellow"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Hi,Welcome to Campus Mart,\n please sign in with your account"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <Spinner
+            android:id="@+id/spinner_signin"
+            android:layout_width="300dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:autofillHints="spinner"
+            android:spinnerMode="dialog"
+            android:background="@drawable/spinner_border"
+            style="@style/spinnerItem"/>
+
+        <EditText
+            android:id="@+id/mobileno_signin"
+            android:layout_width="300dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint="mobile Number"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorLgrey"
+            android:textColor="@color/colorLgrey"/>
+
+        <ImageView
+            android:id="@+id/imageView3_signin"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/forward_btn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I forgot my"
+                android:textColor="#fff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/do_forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  password"
+                android:textColor="@color/colorYellow"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"
+                android:textColor="#fff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/go_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Sign up"
+                android:textColor="@color/colorYellow"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

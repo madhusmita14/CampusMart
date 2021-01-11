@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CampusMart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Hello blank fragment bbbbbbbbbbbbbbbbbbbbkkkkkkkkkkkkkkkkkkkkkkkoooooooooooooooooooooooolllllllllllllllllllllppppppppppppp</string>
+
+    <string name="usernameerror">Enter a valid name</string>
+    <string name="mobilenoerror">Enter a valid mobile no</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="rollnoerror">Enter a valid roll number</string>
+    <string name="passworderror"></string>
+
+</resources>
